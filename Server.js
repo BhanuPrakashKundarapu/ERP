@@ -5,6 +5,9 @@ const app=express();
 app.get("/",async(req,res)=>{
   res.send("server is working")
 })
+app.get("/post",(req,res)=>{
+  res.send("from post method")
+})
 
 
 app.listen(9090,()=>{

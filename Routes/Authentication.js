@@ -1,11 +1,14 @@
 const login = require("../controller/Authentication/Login");
 const { default: routerReg } = require("../controller/Authentication/Register");
+const ProfileData = require("../controller/ProfileManagement/Profile");
+const passport = require("../middlewares/Passport");
 const validateCredentials = require("../Validators/AuthValidators/LoginValidators");
 const validateRegister = require("../Validators/AuthValidators/RegisterValidator");
 
 const Route = require("express").Router();
 Route.post("/log", validateCredentials, login);
 Route.post("/reg", validateRegister, routerReg);
+Route.get ("/profile", passport, ProfileData);
 module.exports = Route;
 
 // const res = {

@@ -1,0 +1,121 @@
+[
+  {
+    name: "Sunrise Institute of Technology",
+    code: "SIT001",
+    type: "Private",
+    affiliation: "JNTU Hyderabad",
+    established_year: 2005,
+    email: "info@sunriseit.edu",
+    phone: "9876543210",
+    website: "https://sunriseit.edu",
+    logo_url: "https://example.com/logos/sit.png",
+    addresses: [
+      {
+        address_line1: "123 Tech Park Road",
+        address_line2: "Near IT Hub",
+        city: "Hyderabad",
+        state: "Telangana",
+        country: "India",
+        pincode: "500081",
+        latitude: 17.4504,
+        longitude: 78.3903
+      }
+    ]
+  },
+
+  {
+    name: "National College of Engineering",
+    code: "NCE045",
+    type: "Government",
+    affiliation: "Anna University",
+    established_year: 1998,
+    email: "contact@nce.ac.in",
+    phone: "9123456780",
+    website: "https://nce.ac.in",
+    logo_url: "https://example.com/logos/nce.png",
+    addresses: [
+      {
+        address_line1: "45 University Road",
+        address_line2: "Main Campus",
+        city: "Chennai",
+        state: "Tamil Nadu",
+        country: "India",
+        pincode: "600025",
+        latitude: 13.0101,
+        longitude: 80.2351
+      }
+    ]
+  },
+
+  {
+    name: "Green Valley Autonomous College",
+    code: "GVAC120",
+    type: "Autonomous",
+    affiliation: "UGC",
+    established_year: 2010,
+    email: "admin@gvac.edu",
+    phone: "9012345678",
+    website: "https://gvac.edu",
+    logo_url: "https://example.com/logos/gvac.png",
+    addresses: [
+      {
+        address_line1: "78 Knowledge Street",
+        address_line2: "Opp. City Library",
+        city: "Bangalore",
+        state: "Karnataka",
+        country: "India",
+        pincode: "560001",
+        latitude: 12.9716,
+        longitude: 77.5946
+      }
+    ]
+  },
+
+  {
+    name: "Riverdale College of Arts & Science",
+    code: "RCAS205",
+    type: "Private",
+    affiliation: "Mumbai University",
+    established_year: 1995,
+    email: "support@rcas.edu",
+    phone: "9988776655",
+    website: "https://rcas.edu",
+    logo_url: "https://example.com/logos/rcas.png",
+    addresses: [
+      {
+        address_line1: "12 Beach View Road",
+        address_line2: "Sector 9",
+        city: "Mumbai",
+        state: "Maharashtra",
+        country: "India",
+        pincode: "400001",
+        latitude: 18.9388,
+        longitude: 72.8354
+      }
+    ]
+  },
+
+  {
+    name: "Mount Crest Government Polytechnic",
+    code: "MCGP333",
+    type: "Government",
+    affiliation: "DTE",
+    established_year: 1988,
+    email: "info@mcgp.gov.in",
+    phone: "9090909090",
+    website: "https://mcgp.gov.in",
+    logo_url: "https://example.com/logos/mcgp.png",
+    addresses: [
+      {
+        address_line1: "56 Old Fort Road",
+        address_line2: "Near Central Market",
+        city: "Pune",
+        state: "Maharashtra",
+        country: "India",
+        pincode: "411001",
+        latitude: 18.5204,
+        longitude: 73.8567
+      }
+    ]
+  }
+]

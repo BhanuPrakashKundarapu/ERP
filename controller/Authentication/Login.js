@@ -6,7 +6,8 @@ const bcj=require("bcryptjs")
 const login = async (req, res) => {
 	// res.json({status:400,message:"iam ready",some:"gdsadaguidasukdsahuo"})
 	try {
-		console.log(req.body);
+		console.log(req);
+		// return 0;
 		const { email, password } = req.body;
 		if (!email || !password) {
 			return res

@@ -2,8 +2,7 @@ const jwt=require("jsonwebtoken");
 require("dotenv").config();
 const passport=async(req,res,next)=>{
   try {
-    console.log(req.headers)
-    console.log(req.headers['x-token'],5,"passport");
+    
     const token=req.headers['x-token'];
     if(!token){
       return res.status(401).json({status:401,message:"Unauthorized Access"})
@@ -17,3 +16,6 @@ const passport=async(req,res,next)=>{
   }
 }
 module.exports=passport;
+
+
+
